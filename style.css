@@ -1,0 +1,474 @@
+body {
+  font-family: "Roboto Slab", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  margin: 0 40px;
+  border-bottom: 1px solid black;
+  /* justify-content: space-around; */
+}
+
+.menu {
+  margin: auto 0;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li {
+  margin: 0 20px;
+}
+
+.menu ul li a {
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  color: #d38669;
+}
+
+.link {
+  color: black;
+}
+
+.logo {
+  margin: auto;
+  /* text-align: center; */
+}
+
+.logo p {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.era {
+  color: #d38669;
+}
+
+.search {
+  margin: auto;
+  display: flex;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.search-bar {
+  background-color: rgb(238, 238, 238);
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.search-bar img {
+  /* background-color: red; */
+  width: 24px;
+  height: 24px;
+}
+
+.search-bar input {
+  height: 25px;
+  margin: auto 10px;
+  border: none;
+  /* width: 48px; */
+  outline: 0;
+  font-size: 16px;
+  background: transparent;
+  /* background-color: red; */
+}
+
+.search-bar input::placeholder {
+  padding: 0 5px;
+  font-size: 16px;
+}
+
+.search-bar .cart {
+  margin: auto 0;
+}
+
+.cart button {
+  margin-top: 2px;
+  margin-left: 18px;
+  /* margin: auto 5px; */
+  width: 48px;
+  height: 48px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  background: rgba(211, 134, 105, 0.1);
+}
+
+.header {
+  display: flex;
+  margin: 60px 100px;
+  justify-content: space-between;
+}
+
+.slogan {
+  color: #d38669;
+  font-size: 18px;
+}
+
+.caption p {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.caption .desc {
+  margin-top: -20px;
+}
+
+.caption .desc p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #777777;
+  line-height: 32.4px;
+  font-family: "Poppins", sans-serif;
+}
+
+.photo img {
+  width: 480px;
+  height: 600px;
+  border-radius: 12px;
+}
+
+.start {
+  margin-top: 60px;
+}
+
+.btn-active {
+  width: 211px;
+  height: 59px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: #d38669;
+}
+
+.btn-active:hover {
+  background-color: #ee9474;
+  transition: 1s;
+}
+
+.btn-link {
+  width: 211px;
+  margin-left: 30px;
+  height: 59px;
+  color: #d38669;
+  font-weight: 500;
+  font-size: 18px;
+  border: 1px solid #d38669;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.btn-link:hover {
+  font-weight: 700;
+  border: 3px solid #d38669;
+  transition: 1s;
+}
+
+.collect {
+  margin: 60px 100px;
+}
+
+.collect .title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collect .title p {
+  font-weight: 600;
+  font-size: 38px;
+}
+
+.collect .title button {
+  margin: auto 0;
+  width: 133px;
+  height: 57px;
+  color: #d38669;
+  font-weight: 500;
+  font-size: 18px;
+  border: 1px solid #d38669;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.list-collect {
+  display: flex;
+}
+
+.card {
+  margin: 0 25px;
+  position: relative;
+  width: 100%;
+}
+
+.card img {
+  position: relative;
+  width: 298px;
+  height: 348px;
+  border-radius: 12px;
+}
+
+.card .name {
+  /* padding: 10px; */
+  position: absolute;
+  border-radius: 12px;
+  padding: 0 7px;
+  right: 10px;
+  left: 10px;
+  bottom: 30px;
+  width: 266px;
+  /* height: 80px; */
+  color: white;
+  /* background-color: red; */
+  backdrop-filter: blur(32px);
+}
+
+.card .name .variant {
+  margin: 0 7px;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card .name .type {
+  margin: 0 7px;
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.custom {
+  display: flex;
+  margin: 100px 100px;
+  justify-content: space-between;
+}
+
+.custom .inter img {
+  width: 620px;
+  height: 560px;
+  border-radius: 12px;
+}
+
+.content-custom {
+  margin: -30px 0;
+}
+
+.caption-custom p {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.slogan2 {
+  color: #d38669;
+  font-size: 18px;
+}
+
+.desc2 {
+  margin-top: -20px;
+}
+
+.desc2 p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #777777;
+  /* word-spacing: 5px; */
+  line-height: 32.4px;
+  font-family: "Poppins", sans-serif;
+}
+
+.choice {
+  display: flex;
+}
+
+.icons {
+  /* width: auto;
+  height: auto; */
+  width: 22px;
+  height: 22px;
+  padding: 14px 15px;
+  border-radius: 12px;
+  background: rgba(211, 134, 105, 0.1);
+}
+
+.cost {
+  margin-right: 90px;
+}
+
+.cost .name {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.cost .desc {
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #777777;
+  line-height: 25px;
+}
+
+.wish .name {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.wish .desc {
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #777777;
+  line-height: 25px;
+}
+
+.btn-order {
+  margin-top: 32px;
+  padding: 16px 46px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: #d38669;
+}
+
+.happy {
+  height: 120vh;
+  width: 100%;
+  background-color: #171627;
+}
+
+.happy .head {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.part {
+  color: #d38669;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.head .title {
+  font-weight: 700;
+  font-size: 52px;
+  color: white;
+}
+
+.comment .main {
+  margin: 50px 70px 20px 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-main {
+  width: 573px;
+  /* height: 240px; */
+  padding: 24px;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile .left {
+  margin: auto 0;
+  display: flex;
+}
+
+.identity {
+  margin-left: 12px;
+  line-height: 10px;
+}
+
+.identity .name {
+  font-weight: 600;
+  font-size: 16px;
+  color: #171627;
+}
+
+.identity .status {
+  font-weight: 500;
+  font-size: 16px;
+  color: #777777;
+}
+
+.profile .left img {
+  margin: auto 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.profile .right {
+  margin: auto 0;
+}
+
+.testimoni p {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #777777;
+  line-height: 160%;
+}
+
+.then {
+  margin: 0 75px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.then .card {
+  width: 372px;
+  height: 200px;
+  padding: 24px;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.profile .right img {
+  width: 40px;
+  height: 31.07px;
+}
+
+.identity p {
+  font-weight: 600;
+  font-size: 16px;
+  color: #171627;
+}
+
+.view {
+  text-align: center;
+}
+
+.btn-view {
+  margin-top: 60px;
+  padding: 16px 46px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: #d38669;
+}
